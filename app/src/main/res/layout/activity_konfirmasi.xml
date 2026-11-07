@@ -1,0 +1,142 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8F0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Konfirmasi Pesanan"
+            android:textColor="#5B3825"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Detail Pesanan"
+            android:textColor="#5B3825"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="#F2D2AE"
+            android:padding="16dp"
+            android:text="Menu"
+            android:textColor="#795548"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvConfirmMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F2D2AE"
+            android:padding="16dp"
+            android:text="Nama Menu"
+            android:textColor="#5B3825"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Total Harga"
+            android:textColor="#795548"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvConfirmPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F2D2AE"
+            android:padding="16dp"
+            android:text="Rp0"
+            android:textColor="#5B3825"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Informasi Pengiriman"
+            android:textColor="#5B3825"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvConfirmRecipient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="#F2D2AE"
+            android:padding="16dp"
+            android:text="Nama Penerima"
+            android:textColor="#5B3825"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvConfirmPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#F2D2AE"
+            android:padding="16dp"
+            android:text="Nomor HP"
+            android:textColor="#5B3825"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvConfirmAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#F2D2AE"
+            android:padding="16dp"
+            android:text="Alamat Pengiriman"
+            android:textColor="#5B3825"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvConfirmNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#F2D2AE"
+            android:padding="16dp"
+            android:text="Catatan"
+            android:textColor="#5B3825"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnConfirmOrder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="Konfirmasi Pesanan"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#5B3825" />
+
+        <Button
+            android:id="@+id/btnBackHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Kembali ke Home"
+            android:textColor="#5B3825"
+            android:backgroundTint="#F2D2AE" />
+
+    </LinearLayout>
+</ScrollView>

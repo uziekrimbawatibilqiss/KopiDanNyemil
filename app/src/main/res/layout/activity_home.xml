@@ -1,0 +1,146 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8F0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kopi dan Nyemil ☕"
+            android:textColor="#5B3825"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Selamat datang! Mau pesan apa hari ini?"
+            android:textColor="#795548"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="12dp"
+            android:text="Profil Saya"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#5B3825" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Menu Favorit"
+            android:textColor="#5B3825"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F2D2AE"
+                android:padding="16dp"
+                android:text="☕  Kopi Susu Gula Aren\nRp18.000"
+                android:textColor="#5B3825"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btnPesan1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="14dp"
+                android:text="Pesan"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#5B3825" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F2D2AE"
+                android:padding="16dp"
+                android:text="🍵  Matcha Latte\nRp20.000"
+                android:textColor="#5B3825"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btnPesan2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="14dp"
+                android:text="Pesan"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#5B3825" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F2D2AE"
+                android:padding="16dp"
+                android:text="🍫  Cokelat Panas\nRp17.000"
+                android:textColor="#5B3825"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btnPesan3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="14dp"
+                android:text="Pesan"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#5B3825" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F2D2AE"
+                android:padding="16dp"
+                android:text="🥪  Roti Bakar Cokelat\nRp15.000"
+                android:textColor="#5B3825"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btnPesan4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="14dp"
+                android:text="Pesan"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#5B3825" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F2D2AE"
+                android:padding="16dp"
+                android:text="🍟  Kentang Goreng\nRp14.000"
+                android:textColor="#5B3825"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btnPesan5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="14dp"
+                android:text="Pesan"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#5B3825" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
