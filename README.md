@@ -39,28 +39,28 @@ Aplikasi mobile sederhana untuk pemesanan kopi dan camilan. Project ini dibuat u
 ## 📸 Dokumentasi Aplikasi
 
 ### 01 · Splash / Welcome
-![Splash Welcome](screenshots/splash.png)
+![Splash Welcome](splash.png)
 
 ### 02 · Sign Up
-![Sign Up](screenshots/sign-up.png)
+![Sign Up](sign-up.png)
 
 ### 03 · Register
-![Register](screenshots/register.png)
+![Register](register.png)
 
 ### 04 · Login
-![Login](screenshots/login.png)
+![Login](login.png)
 
 ### 05 · Home
-![Home](screenshots/home.png)
+![Home](home.png)
 
 ### 06 · Profile
-![Profile](screenshots/profile.png)
+![Profile](profile.png)
 
 ### 07 · Alamat Pengiriman
-![Alamat Pengiriman](screenshots/alamat.png)
+![Alamat Pengiriman](alamat.png)
 
 ### 08 · Konfirmasi Pesanan
-![Konfirmasi Pesanan](screenshots/konfirmasi.png)
+![Konfirmasi Pesanan](konfirmasi.png)
 
 ## 🚀 Cara Menjalankan Aplikasi
 
